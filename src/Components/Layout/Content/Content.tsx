@@ -4,7 +4,7 @@ import { Routes, Route } from 'react-router-dom';
 import About from '../../Pages/About';
 import Home from '../../Pages/Home';
 import NotFound from '../../Pages/NotFound';
-import { fetchUsers } from '../../Store/reducers/actionAsync.js';
+import { fetchUsers } from '../../../Store/reducers/actionAsync';
 
 function Content() {
 
