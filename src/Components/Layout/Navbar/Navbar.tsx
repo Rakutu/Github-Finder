@@ -15,8 +15,8 @@ function Navbar({ title }: NavbarPropTypes) {
             </div>
             <div className="flex-1 px-2 mx-2">
                 <div className="flex justify-end">
-                    <Link to='/' className='btn btn-ghost btn-sm btn-rounded'>Home</Link>
-                    <Link to='/about' className='btn btn-ghost btn-sm btn-rounded'>About</Link>
+                    <Link to='/Github-Finder/' className='btn btn-ghost btn-sm btn-rounded'>Home</Link>
+                    <Link to='/Github-Finder/about' className='btn btn-ghost btn-sm btn-rounded'>About</Link>
                 </div>
             </div>
         </div>  
