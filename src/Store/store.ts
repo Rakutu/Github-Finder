@@ -1,8 +1,10 @@
 import { combineReducers } from 'redux';
-import userRequestReducer from './reducers/userReducer';
+import UserItemReducer from './reducers/UserItemReducer/userItemReducer';
+import userRequestReducer from './reducers/UsersReducer/userReducer';
 
 const rootReducer = combineReducers({
-    users: userRequestReducer
+    users: userRequestReducer,
+    userItem: UserItemReducer,
 })
 
 export type rootReducerType = ReturnType<typeof rootReducer>

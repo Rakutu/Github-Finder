@@ -1,4 +1,4 @@
-import { UserType } from '../../Store/reducers/reducerTypes';
+import { UserType } from '../../Store/reducers/UsersReducer/reducerTypes';
 import { Link } from 'react-router-dom';
 
 import styles from './userItem.module.css';
