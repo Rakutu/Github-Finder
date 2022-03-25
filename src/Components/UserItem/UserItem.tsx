@@ -9,7 +9,7 @@ interface UserItemPropTypes {
 
 function UserItem({ user: { avatar_url, login} }: UserItemPropTypes) {
   return (
-    <Link to={`/users/${login}`}>
+    <Link to={`/Github-Finder/users/${login}`}>
         <div className={`card shadow-md compact side bg-base-100 ${styles.user__item}`} >
             <div className="flex-row items-center space-x-4 card-body">
                 <div className="avatar">
