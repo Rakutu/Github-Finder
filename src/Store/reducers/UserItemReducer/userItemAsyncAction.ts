@@ -3,12 +3,12 @@ import { Dispatch } from 'redux'
 import { userItemRequestAction, userItemRequestErrorAction, userItemRequestReposAction, userItemSuccessAction } from './userItemReducer';
 import { ActionUserItemType } from './userItemReducerTypes'
 
-const URL = process.env.REACT_APP_GITHUB_URL;
-const AUTH_TOKEN = process.env.REACT_APP_GITHUB_TOKEN;
+// const URL = process.env.REACT_APP_GITHUB_URL;
+// const AUTH_TOKEN = process.env.REACT_APP_GITHUB_TOKEN;
 
 const github = axios.create({
-    baseURL: URL,
-    headers: { Authorization: `${AUTH_TOKEN}` }
+    baseURL: 'https://api.github.com',
+    headers: { Authorization: `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` }
 })
 
 const fetchUserItem = (userLogin: string) => {
