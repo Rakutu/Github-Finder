@@ -9,11 +9,11 @@ function Content() {
 
   return (
     <Routes>
-        <Route path='/Github-Finder/' element={<Home />} />
-        <Route path='/Github-Finder/about' element={<About />} />
-        <Route path='/Github-Finder/users/:login' element={<UserPageContainer />} />
-        <Route path='/Github-Finder/notfound' element={<NotFound />} />
-        <Route path='/Github-Finder/*' element={<NotFound />} />
+        <Route path='/' element={<Home />} />
+        <Route path='/about' element={<About />} />
+        <Route path='/users/:login' element={<UserPageContainer />} />
+        <Route path='/notfound' element={<NotFound />} />
+        <Route path='/*' element={<NotFound />} />
     </Routes>
   )
 }

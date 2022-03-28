@@ -13,7 +13,7 @@ function UserPage({ userItem }: UserPagePropTypes) {
         <>
             <div className="w-full mx-auto lg:w-10/12">
                 <div className="mb-4">
-                    <Link to='/Github-Finder/' className='btn btn-ghost'>Back to search</Link>
+                    <Link to='/' className='btn btn-ghost'>Back to search</Link>
                 </div>
 
                 <div className="grid grid-cols-1 xl:grid-cols-3 lg:grid-cols-3 md:grid-cols-3 mb-8 md:gap-8">
